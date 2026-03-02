@@ -171,8 +171,8 @@ def carregar(dados: list[dict]) -> dict:
     caminho_json     = salvar_json(dados, timestamp)
     caminho_relatorio = salvar_relatorio_markdown(dados, timestamp)
 
-    print(f"  ✅ JSON salvo em:        \{caminho_json.relative_to(Path.cwd())}")
-    print(f"  ✅ Relatório salvo em:   \{caminho_relatorio.relative_to(Path.cwd())}")
+    print(f"  ✅ JSON salvo em:        /{caminho_json.relative_to(Path.cwd()).as_posix()}")
+    print(f"  ✅ Relatório salvo em:   /{caminho_relatorio.relative_to(Path.cwd()).as_posix()}")
 
     return {
         "json": str(caminho_json),
