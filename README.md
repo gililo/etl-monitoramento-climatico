@@ -61,7 +61,7 @@ cd etl-monitoramento-climatico
 
 ### 2. Instale as dependências
 ```bash
-python3 -m pip install requests groq python-dotenv
+pip install -r requirements.txt
 ```
 
 ### 3. Configure sua chave de API do Groq
