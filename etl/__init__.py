@@ -1,0 +1,1 @@
+# Pacote ETL — expõe as funções principais de cada etapa do pipeline
