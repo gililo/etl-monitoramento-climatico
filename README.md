@@ -1,6 +1,5 @@
 # 🌦️ ETL — Monitoramento Climático por Cidade
-Lab Project
-Explorando IA Generativa em um Pipeline de ETL com Python - DIO
+Lab Project - Explorando IA Generativa em um Pipeline de ETL com Python - DIO
 
 Pipeline ETL que monitora condições climáticas em cidades brasileiras, analisa os dados com **Llama 3.3** (via Groq) e gera relatórios automáticos de alerta em português.
 
