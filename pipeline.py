@@ -74,8 +74,8 @@ def executar_pipeline():
     print(f"  🏙️  Cidades: {len(dados_analisados)}")
     print(f"  🔴 Em alerta: {total_alertas}")
     print(f"  🟡 Em atenção: {total_atencoes}")
-    print(f"  📄 JSON:             \{Path(caminhos_saida['json']).relative_to(Path.cwd())}")
-    print(f"  📝 Relatório MD:     \{Path(caminhos_saida['relatorio']).relative_to(Path.cwd())}")
+    print(f"  📄 JSON:             /{Path(caminhos_saida['json']).relative_to(Path.cwd()).as_posix()}")
+    print(f"  📝 Relatório MD:     /{Path(caminhos_saida['relatorio']).relative_to(Path.cwd()).as_posix()}")
     print()
 
 
